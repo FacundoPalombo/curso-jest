@@ -22,6 +22,7 @@ describe('Calculos Matematicos', ()=> {
         expect(restar(6,3)).toBe(3)
         expect(restar(9,3)).toBe(6)
         expect(restar(6,3)).not.toBe(2)
+        expect(restar(6,3)).toBe(2) // tiene que fallar
     })
 })
 
