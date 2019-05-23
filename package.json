@@ -4,7 +4,8 @@
   "description": "Curso de Jest unit testing de Platzi.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
