@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Prueba de los snapshots Siempre va a fallar la instantanea 1`] = `
+Object {
+  "createdAt": 2019-05-24T13:25:02.959Z,
+  "id": 0,
+  "name": "Random guy",
+}
+`;
+
 exports[`Prueba de los snapshots Snapshot 1`] = `
 Object {
   "gender": "Male",
@@ -7,5 +15,12 @@ Object {
   "name": "Rick Sanchez",
   "species": "Human",
   "status": "Alive",
+}
+`;
+
+exports[`Prueba de los snapshots Tenemos una excepción dentro del código 1`] = `
+Object {
+  "id": Any<Number>,
+  "name": "Random guy",
 }
 `;
