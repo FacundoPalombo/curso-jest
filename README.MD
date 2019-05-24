@@ -5,4 +5,6 @@
 ## Configuración del entorno
 
 * Para instalar las dependencias : `npm install`
-* Para correr los tests : `npm run tests`
+* Para correr los tests : `npm run test`
+* Para ver las estadisticas de tests : `npm run test:coverage`
+* Para mantener en escucha las acciones de Jest : `npm run test:watch` 
